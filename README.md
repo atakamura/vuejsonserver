@@ -2,6 +2,7 @@
 
 Utilização:
 $ npm install -g json-server
+
 $ json-server --watch src/data/db.json --port 4000
 
 
