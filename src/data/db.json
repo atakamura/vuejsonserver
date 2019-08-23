@@ -1,67 +1,184 @@
 {
-  "message": [
+  "user": [
     {
-       "id": "1",
-       "from": "Alexandre",
-       "message": "Bom dia!"
-    },
-    {
-       "id": "2",
-       "from": "Adriana",
-       "message": "Favor entrar em contato pelo telefone 12 3988-2233"
-    },
-    {
-       "id": "3",
-       "from": "Pierce Brosnan",
-       "message": "Tenho um carro para vender. Ligar urgente."
-    },
-    {
-       "id": "4",
-       "from": "Sylvester Stallone",
-       "message": "Rocky rocks!"
-    },
-    {
-       "id": "5",
-       "from": "Arnold Schwarzenegger",
-       "message": "Hasta la vista baby!"
+      "companyid": 1,
+      "userid": 100,
+      "sid": "12345678901234567890123456789012",
+      "avatar": "USR_000100_1.png",
+      "user": "alexandre.takamura",
+      "name": "Alexandre Kenji Takamura",
+      "alias": "Alexandre",
+      "email": "alexandre@a6i.com.br",
+      "countryid": 1,
+      "stateid": 1,
+      "cityid": 1234,
+      "phonecode": 12
     }
-     ],
+  ],
 
-  "notification": [
+  "usermessage": [
     {
-       "id": "1",
-       "from": "Filial Alfa",
-       "message": "Pedido de compra 12354"
+      "id": "1",
+      "from": "Alexandre",
+      "message": "Bom dia!"
     },
     {
-       "id": "2",
-       "from": "Filial Beta",
-       "message": "Favor entrar em contato pelo telefone 12 3988-2233"
+      "id": "2",
+      "from": "Adriana",
+      "message": "Favor entrar em contato pelo telefone 12 3988-2233"
     },
     {
-       "id": "3",
-       "from": "Fornecedor Tamby",
-       "message": "Cotação realizada"
-    }    
+      "id": "3",
+      "from": "Pierce Brosnan",
+      "message": "Tenho um carro para vender. Ligar urgente."
+    },
+    {
+      "id": "4",
+      "from": "Sylvester Stallone",
+      "message": "Rocky rocks!"
+    },
+    {
+      "id": "5",
+      "from": "Arnold Schwarzenegger",
+      "message": "Hasta la vista baby!"
+    }
+  ],
+
+  "usernotification": [
+    {
+      "id": "1",
+      "from": "Filial Alfa",
+      "message": "Pedido de compra 12354"
+    },
+    {
+      "id": "2",
+      "from": "Filial Beta",
+      "message": "Favor entrar em contato pelo telefone 12 3988-2233"
+    },
+    {
+      "id": "3",
+      "from": "Fornecedor Tamby",
+      "message": "Cotação realizada"
+    }
+  ],
+
+  "useragenda": [
+    {
+      "id": 1,
+      "subject": "Conferência com Alexandre",
+      "startdate": "2019-08-23 11:30:00",
+      "enddate": "2019-08-23 12:30:00",
+      "type": [
+        {
+          "id": "2",
+          "icon": "icon-social-skype"
+        }
+      ],
+      "typelabel": "Online",
+      "participants": [
+        {
+          "name": "André Luiz Giannattasio Marques Dias",
+          "avatar": "USR_000101_1.png",
+          "alias": "André",
+          "email": "adias@a6i.com.br"
+        },
+        {
+          "name": "Alexandre Kenji Takamura",
+          "avatar": "USR_000100_1.png",
+          "alias": "Alexandre",
+          "email": "alexandre@a6i.com.br"
+        },
+        {
+          "name": "Maria de Nazaré",
+          "avatar": "USR_000102_1.png",
+          "alias": "Maria",
+          "email": "maria@a6i.com.br"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "subject": "Reunião de alinhamento",
+      "startdate": "2019-08-23 15:30:00",
+      "enddate": "2019-08-23 17:30:00",
+      "type": [
+        {
+          "id": "1",
+          "icon": "icon-home"
+        }
+      ],
+      "typelabel": "A6i",
+      "participants": [
+        {
+          "name": "André Luiz Giannattasio Marques Dias",
+          "avatar": "USR_000101_1.png",
+          "alias": "André",
+          "email": "adias@a6i.com.br"
+        }
+      ]
+    }
+  ],
+
+  "menu": [
+    {
+      "id": "1",
+      "label": "Sistema",
+      "icon": "",
+      "url": "",
+      "target": "",
+      "menu": [
+        {
+          "id": "3",
+          "label": "Usuários",
+          "icon": "",
+          "url": "",
+          "target": ""
+        },
+        {
+          "id": "4",
+          "label": "Grupo de Acesso",
+          "icon": "",
+          "url": "",
+          "target": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "label": "Atendimentos",
+      "icon": "",
+      "url": "",
+      "target": ""
+    }
   ],
 
   "users": [
     {
-       "id": "1",
-       "user": "administrador",
-       "name": "Administrador"
+      "id": "1",
+      "user": "administrador",
+      "name": "Administrador",
+      "email": "adm@a6i.com.br"
     },
     {
-       "id": "100",
-       "user": "alexandre.takamura",
-       "name": "Alexandre Kenji Takamura"
+      "id": "100",
+      "user": "alexandre.takamura",
+      "name": "Alexandre Kenji Takamura",
+      "alias": "Alexandre",
+      "email": "alexandre@a6i.com.br"
     },
     {
-       "id": "101",
-       "user": "andre",
-       "name": "André"
+      "id": "101",
+      "user": "andre",
+      "name": "André Luiz Giannattasio Marques Dias",
+      "alias": "André",
+      "email": "adias@a6i.com.br"
+    },
+    {
+      "id": "102",
+      "user": "maria",
+      "name": "Maria de Nazaré",
+      "alias": "Maria",
+      "email": "maria@a6i.com.br"
     }
   ]
-
-
 }
