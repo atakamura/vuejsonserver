@@ -1,7 +1,8 @@
 # smg4api
 
 Utilização:
-json-server --watch src/data/db.json --port 4000
+$ npm install -g json-server
+$ json-server --watch src/data/db.json --port 4000
 
 
 
