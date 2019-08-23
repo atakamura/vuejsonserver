@@ -1,0 +1,67 @@
+{
+  "message": [
+    {
+       "id": "1",
+       "from": "Alexandre",
+       "message": "Bom dia!"
+    },
+    {
+       "id": "2",
+       "from": "Adriana",
+       "message": "Favor entrar em contato pelo telefone 12 3988-2233"
+    },
+    {
+       "id": "3",
+       "from": "Pierce Brosnan",
+       "message": "Tenho um carro para vender. Ligar urgente."
+    },
+    {
+       "id": "4",
+       "from": "Sylvester Stallone",
+       "message": "Rocky rocks!"
+    },
+    {
+       "id": "5",
+       "from": "Arnold Schwarzenegger",
+       "message": "Hasta la vista baby!"
+    }
+     ],
+
+  "notification": [
+    {
+       "id": "1",
+       "from": "Filial Alfa",
+       "message": "Pedido de compra 12354"
+    },
+    {
+       "id": "2",
+       "from": "Filial Beta",
+       "message": "Favor entrar em contato pelo telefone 12 3988-2233"
+    },
+    {
+       "id": "3",
+       "from": "Fornecedor Tamby",
+       "message": "Cotação realizada"
+    }    
+  ],
+
+  "users": [
+    {
+       "id": "1",
+       "user": "administrador",
+       "name": "Administrador"
+    },
+    {
+       "id": "100",
+       "user": "alexandre.takamura",
+       "name": "Alexandre Kenji Takamura"
+    },
+    {
+       "id": "101",
+       "user": "andre",
+       "name": "André"
+    }
+  ]
+
+
+}

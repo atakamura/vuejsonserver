@@ -1,5 +1,10 @@
 # smg4api
 
+Utilização:
+json-server --watch src/data/db.json --port 4000
+
+
+
 ## Project setup
 ```
 yarn install
