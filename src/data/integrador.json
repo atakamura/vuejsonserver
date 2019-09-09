@@ -1,0 +1,12 @@
+{
+    "info": 
+        {
+            "entropy": 158857999,
+            "origins": [
+              "*:*"
+            ],
+            "cookie_needed": true,
+            "websocket": true
+        }
+    
+}

@@ -1,18 +1,36 @@
 {
-  "user": [
+  "system": [
     {
       "companyid": 1,
-      "userid": 100,
-      "sid": "12345678901234567890123456789012",
-      "avatar": "USR_000100_1.png",
-      "user": "alexandre.takamura",
-      "name": "Alexandre Kenji Takamura",
-      "alias": "Alexandre",
-      "email": "alexandre@a6i.com.br",
+      "companylogo": "data/sys/ENT_000001_1.png",
+      "companylogow": "100",
+      "companylogoh": "30",
+      "companyicon": "data/sys/ENT_000001_2.ico",
       "countryid": 1,
       "stateid": 1,
       "cityid": 1234,
       "phonecode": 12
+    }
+  ],
+
+  "user": [
+    {
+      "companyid": 1,
+      "companylogo": "data/sys/ENT_000001_1.png",
+      "companylogow": "100",
+      "companylogoh": "30",
+      "companyicon": "data/sys/ENT_000001_2.ico",
+      "countryid": 1,
+      "stateid": 1,
+      "cityid": 1234,
+      "phonecode": 12,
+      "uid": 100,
+      "sid": "12345678901234567890123456789012",
+      "avatar": "data/sys/USR_000100_1.png",
+      "user": "alexandre.takamura",
+      "name": "Alexandre Kenji Takamura",
+      "alias": "Alexandre",
+      "email": "alexandre@a6i.com.br"
     }
   ],
 
@@ -179,6 +197,39 @@
       "name": "Maria de Nazaré",
       "alias": "Maria",
       "email": "maria@a6i.com.br"
+    }
+  ],
+
+  "country": [
+    {
+      "id": "1",
+      "name": "Brasil"
+    },
+    {
+      "id": "2",
+      "name": "Estados Unidos"
+    }
+  ],
+
+  "state": [
+    {
+      "id": "SP",
+      "name": "São Paulo"
+    },
+    {
+      "id": "RJ",
+      "name": "Rio de Janeiro"
+    }
+  ],
+
+  "city": [
+    {
+      "id": "1234",
+      "name": "São José dos Campos"
+    },
+    {
+      "id": "RJ",
+      "name": "Jacareí"
     }
   ]
 }
